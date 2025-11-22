@@ -1,0 +1,12 @@
+# Core Platform
+n8n >= 1.0.0
+
+# External APIs / Services (non-code but required integrations)
+Google Sheets API (OAuth2)  # used by Google Sheets nodes
+Google Drive API (OAuth2)   # used to download resume PDF
+Hunter.io API               # used by Hunter node for contact discovery
+OpenAI API                  # used by Controller, Context Builder, Email Writer Agents
+Gmail API / Gmail OAuth2    # used by Gmail node for sending emails
+
+# Runtime Environment
+Node.js >= 18 (for n8n)
